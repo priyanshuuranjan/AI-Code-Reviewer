@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-     "server": "nodemon server.js"
+    "server": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -11,6 +11,8 @@
   "type": "commonjs",
   "description": "",
   "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "nodemon": "^3.1.9"
   }
