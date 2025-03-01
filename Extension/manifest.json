@@ -16,5 +16,11 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": "ai.jpg"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
 }
