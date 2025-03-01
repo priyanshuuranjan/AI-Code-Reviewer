@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Code Analyzer AI",
+    "name": "AI Code Reviewer",
     "version": "1.0",
     "description": "Analyze selected code using AI",
     "permissions": ["contextMenus", "activeTab", "scripting", "storage"],
@@ -9,7 +9,8 @@
     },
     "host_permissions": ["https://*/*"],
     "action": {
-      "default_popup": "popup.html"
+      "default_popup": "popup.html",
+      "default_icon": "ai.jpg"
     }
   }
   
