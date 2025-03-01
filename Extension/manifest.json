@@ -1,16 +1,20 @@
 {
-    "manifest_version": 3,
-    "name": "AI Code Reviewer",
-    "version": "1.0",
-    "description": "Analyze selected code using AI",
-    "permissions": ["contextMenus", "activeTab", "scripting", "storage"],
-    "background": {
-      "service_worker": "background.js"
-    },
-    "host_permissions": ["https://*/*"],
-    "action": {
-      "default_popup": "popup.html",
-      "default_icon": "ai.jpg"
-    }
+  "manifest_version": 3,
+  "name": "AI Code Reviewer",
+  "version": "1.2",
+  "description": "Analyze selected code using AI",
+  "permissions": ["contextMenus", "activeTab", "scripting", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["https://*/*"],
+  "icons": {
+    "16": "iconss.png",
+    "48": "iconss.png",
+    "128": "iconss.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "ai.jpg"
   }
-  
+}
