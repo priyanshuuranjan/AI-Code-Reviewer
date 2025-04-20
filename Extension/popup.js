@@ -1,4 +1,4 @@
-const apiUrl = "https://ai-code-reviewer-9rmv.onrender.com";
+const apiUrl = "https://ai-code-reviewer-9rmv.onrender.com/ai/get-review";
 
 document.getElementById("analyzeBtn").addEventListener("click", async () => {
   const code = document.getElementById("codeInput").value;
